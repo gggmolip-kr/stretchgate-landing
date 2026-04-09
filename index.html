@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>거북거북 - 목 스트레칭 습관 앱</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #121217;
+            color: #fff;
+            line-height: 1.6;
+        }
+        .hero {
+            text-align: center;
+            padding: 80px 20px 60px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .hero img { width: 120px; margin-bottom: 24px; }
+        .hero h1 { font-size: 42px; margin-bottom: 8px; }
+        .hero .subtitle {
+            font-size: 18px;
+            color: rgba(255,255,255,0.55);
+            margin-bottom: 32px;
+        }
+        .cta {
+            display: inline-block;
+            background: #59D18D;
+            color: #121217;
+            padding: 16px 40px;
+            border-radius: 16px;
+            font-size: 18px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: transform 0.15s;
+        }
+        .cta:hover { transform: scale(1.03); }
+        .features {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .feature {
+            background: #1F1F26;
+            padding: 28px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        .feature .icon { font-size: 36px; margin-bottom: 12px; }
+        .feature h3 { font-size: 18px; margin-bottom: 8px; }
+        .feature p { font-size: 14px; color: rgba(255,255,255,0.5); }
+        .how {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .how h2 { font-size: 28px; margin-bottom: 32px; }
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        .step-num {
+            width: 36px; height: 36px;
+            background: #59D18D;
+            color: #121217;
+            border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        .step p { font-size: 16px; }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: rgba(255,255,255,0.3);
+            font-size: 13px;
+        }
+        footer a { color: rgba(255,255,255,0.4); }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div style="font-size:80px">🐢</div>
+        <h1>거북거북</h1>
+        <p class="subtitle">스마트폰 쓰기 전에, 목부터 풀고</p>
+        <a href="#" class="cta">App Store에서 다운로드</a>
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <div class="icon">🔒</div>
+            <h3>앱 잠금</h3>
+            <p>인스타, 유튜브, 게임 등<br>원하는 앱을 잠그세요</p>
+        </div>
+        <div class="feature">
+            <div class="icon">📷</div>
+            <h3>자세 인식</h3>
+            <p>카메라로 자동 감지<br>스트레칭이 끝나면 열려요</p>
+        </div>
+        <div class="feature">
+            <div class="icon">🚫</div>
+            <h3>스킵 불가</h3>
+            <p>건너뛰기 버튼 없음<br>진짜로 해야만 해요</p>
+        </div>
+        <div class="feature">
+            <div class="icon">📊</div>
+            <h3>기록 & 레벨</h3>
+            <p>매일 기록이 쌓이고<br>거북이가 성장해요</p>
+        </div>
+    </div>
+
+    <div class="how">
+        <h2>이렇게 작동해요</h2>
+        <div class="step">
+            <div class="step-num">1</div>
+            <p>잠글 앱을 선택하세요</p>
+        </div>
+        <div class="step">
+            <div class="step-num">2</div>
+            <p>잠긴 앱을 열면 스트레칭 미션이 나타나요</p>
+        </div>
+        <div class="step">
+            <div class="step-num">3</div>
+            <p>카메라로 자세를 확인하고 스트레칭 완료!</p>
+        </div>
+        <div class="step">
+            <div class="step-num">4</div>
+            <p>설정한 시간마다 다시 스트레칭 🔁</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>이김푸딩게임즈 | <a href="privacy.html">개인정보 처리방침</a></p>
+    </footer>
+</body>
+</html>
