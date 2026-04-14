@@ -12,12 +12,20 @@
         p, li { color: rgba(255,255,255,0.7); font-size: 15px; }
         ul { padding-left: 20px; }
         a { color: #59D18D; }
-        .date { color: rgba(255,255,255,0.4); font-size: 13px; margin-bottom: 32px; }
+        .date { color: rgba(255,255,255,0.4); font-size: 13px; margin-bottom: 16px; }
+        .lang { font-size: 13px; margin-bottom: 32px; }
+        .lang a { margin-right: 12px; text-decoration: none; }
+        .lang .active { color: rgba(255,255,255,0.9); font-weight: 600; pointer-events: none; }
     </style>
 </head>
 <body>
     <h1>개인정보 처리방침</h1>
     <p class="date">최종 수정일: 2026년 4월 8일</p>
+    <p class="lang">
+        <a class="active">한국어</a>
+        <a href="privacy-en.html">English</a>
+        <a href="privacy-ja.html">日本語</a>
+    </p>
     <h2>1. 수집하는 정보</h2>
     <p><strong>카메라 데이터</strong>: 목 스트레칭 자세 확인용. 기기 내에서만 실시간 처리, 서버 전송 없음, 저장 없음.</p>
     <p><strong>스크린 타임 데이터</strong>: Apple Screen Time API를 통해 기기 내에서만 처리.</p>
